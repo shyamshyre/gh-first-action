@@ -11,4 +11,8 @@ jobs:
         run: echo " Hello World"
       - name: GoodBye
         run: echo "Goodbye"
+      - name: Run Multiple Commands
+        run: |
+            echo "First Output"
+            echo "Second Output" 
   
